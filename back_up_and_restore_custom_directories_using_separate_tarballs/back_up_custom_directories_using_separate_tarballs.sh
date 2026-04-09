@@ -49,6 +49,8 @@ while true; do sudo -n true; sleep 60; kill -0 $$ || exit; done 2> /dev/null &
 #tar -cvzpf BraveSoftware_dir.tgz "$HOME/.config/BraveSoftware/" 2>> dirs.log
 echo "=== BACKUP START: obs-studio_dir.tgz ===" | tee -a dirs.log
 tar -cvzpf obs-studio_dir.tgz "$HOME/.config/obs-studio/" 2>> dirs.log
+echo "=== BACKUP START: openclaw_dir.tgz ===" | tee -a dirs.log
+tar -cvzpf openclaw_dir.tgz "$HOME/clawd/" "$HOME/.openclaw" 2>> dirs.log
 
 # Development application configs
 echo "=== BACKUP START: DBeaverData_dir.tgz ===" | tee -a dirs.log
