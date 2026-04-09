@@ -71,6 +71,8 @@ tar -cvzpf sword-vim-nvim-site-only_dir.tgz "$HOME/.local/share/nvim/site/" 2>> 
 # Terminal application configs
 echo "=== BACKUP START: pash-config_dir.tgz ===" | tee -a dirs.log
 tar -cvzpf pash-config_dir.tgz "$HOME/.config/pash/" 2>> dirs.log
+echo "=== BACKUP START: prompt-ng_dir.tgz ===" | tee -a dirs.log
+tar -cvzpf prompt-ng_dir.tgz "$HOME/prompt-ng/" 2>> dirs.log
 
 # Custom user configs
 echo "=== BACKUP START: config_dir.tgz ===" | tee -a dirs.log
