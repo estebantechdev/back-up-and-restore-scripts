@@ -6,7 +6,7 @@ Scripts for backing up and restoring custom directories, files, media, container
   <img src="assets/images/mc.jpg" width="683" height="348" alt="Backup and Restore Overview">
 </p>
 
-## [back_up_and_restore_custom_directories_using_single_tarball](./back_up_and_restore_custom_directories_using_single_tarball/README.md)
+## [back_up_and_restore_custom_directories_using_single_tarball](./back_up_and_restore_custom_directories_using_single_tarball/)
 
 Creates a single .tgz archive containing the specified directories and logs any errors encountered during the process.
 
