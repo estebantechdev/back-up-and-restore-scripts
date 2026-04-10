@@ -1,6 +1,10 @@
 # back-up-and-restore-scripts
 
-Scripts for backing up and restoring custom directories, files, images, containers, and databases efficiently.
+Scripts for backing up and restoring custom directories, files, media, containers, and databases efficiently.
+
+<p align="center">
+  <img src="assets/images/mc.jpg" width="683" height="348" alt="Backup and Restore Overview">
+</p>
 
 ## back_up_and_restore_custom_directories_using_single_tarball
 
